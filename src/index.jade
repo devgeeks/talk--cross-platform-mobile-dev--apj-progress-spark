@@ -1,0 +1,182 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Cross-Platform Mobile Development for iOS, Android and Windows Phone
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+    link(href='fonts/stylesheet.css', rel='stylesheet', type='text/css')
+    link(href="fonts/font-awesome/css/font-awesome.min.css", rel="stylesheet", type="text/css")
+
+  body
+
+    article
+
+      section(data-bespoke-hash='intro')
+        h1 Cross-Platform Mobile Development for iOS, Android and Windows Phone
+
+      section
+        h2 Who am I?
+        p.badass Tommy-Carlos Williams
+          div(class="centertext")
+            i(class="bullet-icon fa fa-envelope")
+            a(href="mailto:tommy@devgeeks.org") tommy@devgeeks.org
+            br
+            i(class="bullet-icon fa fa-twitter")
+            a(href="https://twitter.com/theRealDevgeeks") @theRealDevgeeks
+            br
+            i(class="bullet-icon fa fa-pencil")
+            a(href="https://blog.devgeeks.org") http://blog.devgeeks.org
+            br
+            i(class="bullet-icon fa fa-github")
+            a(href="https://github.com/devgeeks") http://github.com/devgeeks
+
+      section
+        h2 Why Develop Cross-Platform?
+        ul
+          li.noarrow 
+          li.noarrow - Ship earlier on more platforms
+          li.noarrow - Smaller development team
+          li.noarrow - Leverage existing skills
+          li.noarrow - Opportunity to have consistent branding & UX across platforms
+
+      section
+        h2 Did You See This Slide?
+        img(src="images/thatslide.jpeg",style="width:540px")
+
+      section
+        h2 Potential Downsides to Cross-Platform?
+        ul
+          li.noarrow 
+          li.noarrow - Difficult to access platform specific "look"**
+          li.noarrow - Lack of deep integration with the platform*
+          li.noarrow - Sub-par* User Experience (UX)
+          li.noarrow - Poor performance*
+        p
+          small(style="font-size:50%") * Debateable and mostly fixable
+          br
+          small(style="font-size:50%") ** Depending on the cross-platform solution
+
+      section
+        h2 Cross-Platform Options
+        ul.bullet
+          li Cordova / PhoneGap*
+          li NativeScript**
+          li React Native
+          li Titanium*
+          li Xamarin*
+          li RubyMotion
+          li ???
+        p
+          small(style="font-size:50%").
+            * Supports more than just iOS and Android, ie: Windows Phone, etc
+          br
+          small(style="font-size:50%") ** Support for Windows Phone coming
+
+      section
+        h1 Apache Cordova / Adobe PhoneGap
+
+      section
+        h2 <small>First, a Quick Word About<br></small>Cordova vs PhoneGap
+        p The battle that isn't
+        p PhoneGap is to Safari, as Cordova is to WebKit
+        p PhoneGap is the value-add from Adobe on top of the open source Cordova 
+        p Telerik's hybrid tools are built on top of Cordova
+
+      section
+        h2 What <u>is</u> Cordova?*
+        img(src="images/fullscreenwebview.png", style="width:130px;height:auto;")
+        p.
+          Create native apps using html/css/js<br>
+          Full screen web view (like a browser without the chrome)
+        p Then add native device functionality via "plugins"
+        p
+          small(style="font-size:50%") * From now on, when I say Cordova, assume I also mean PhoneGap
+
+      section
+        h2 Cordova Demo
+
+      section
+        h2 Common Mythconception #1
+        h3.bullet "PhoneGap (Cordova) apps are slow"
+        p.bullet Nope. Apps built using appropriate CSS and JavaScript can be as fast and fun to use as native apps.
+        p.bullet Not all types of apps lend themselves to a hybrid approach, but a majority do.
+
+      section
+        h2 Common Mythconception #2
+        h3.bullet "Users can tell an app is hybrid, and they don't like it"
+        p
+          small(style="font-size:50%") Thanks, Facebook...
+
+        p.bullet Nope. "...users don’t really care what the app was built in – they just want it to be fast, accessible and fun to use." <br>
+          span(style="font-size:50%") Untappd, Wikipedia, Tripcase, Feedly, etc.<br>
+          span(style="font-size:50%") Greg Avola, creator of Untappd - 
+          a(style="font-size:50%",href="http://developer.telerik.com/featured/native-or-hybrid-the-path-of-least-resistance") Native or Hybrid – The Path of Least Resistance
+
+      section
+        h2 KendoUI Mobile
+        img(src="images/kendo-ui.png",style="width:640px;")
+
+      section
+        h2 Cordova & Kendo-UI in the Cloud<br>with AppBuilder
+        img(src="images/appbuilder.png",style="width:540px")
+
+      section
+        h2 Cordova AppBuilder Demo
+
+      section
+        h2 Designing an app with ScreenBuilder
+        img(src="images/screenbuilder.png",style="width:540px")
+
+      section
+        h2 ScreenBuilder Demo
+
+      section
+        h1 NativeScript
+        img(src="images/nativescript.png",style="width:540px")
+
+      section
+        h2 What <u>is</u> NativeScript?
+        p "A runtime for building and running native iOS, Android, and Windows Phone apps with a single, JavaScript code base"
+        p No DOM<br>No cross-compilation
+
+      section
+        h2 John Bristowe
+        h3 A New & Better Way to Build Cross-Platform Native Apps
+        p Tomorrow morning at 9am
+
+      section
+        h1 What About React Native?*
+        p Hard to call it "cross-platform" at the moment. Only for iOS.
+        p
+          small(style="font-size:50%") * More of a "something to watch" at this stage...
+
+      section
+        h1 Titanium / Xamarin / RubyMotion / etc
+        p Not *my* area of expertise, but if your team has existing skills in one of the languages these use, they can be valuable for the same reasons as Cordova/PhoneGap.
+
+      section
+        h1 To Sum Up...
+
+      section
+        h2 Why Develop Cross-Platform?
+        ul
+          li.noarrow 
+          li.noarrow - Ship earlier on more platforms
+          li.noarrow - Smaller development team
+          li.noarrow - Leverage existing skills
+          li.noarrow - Opportunity to have consistent branding & UX across platforms
+
+      section
+        h1 Thanks!
+        p.
+          Feel free to ask me any cross-platform mobile development questions
+          you may have, as long as they have nothing to do with jQuery Mobile.
+        p
+          small Just kidding*
+        p
+          small(style="font-size:50%") * I'm totally not kidding
+
+
+    script(src='build/build.js')

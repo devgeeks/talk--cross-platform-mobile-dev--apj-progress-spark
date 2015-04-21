@@ -1,0 +1,33 @@
+// New to Stylus? Check out http://learnboost.github.io/stylus
+// Use modern CSS thanks to Autoprefixer: https://github.com/ai/autoprefixer
+
+// Import CSS from "node_modules" and "bower_components"
+// thanks to Stylus' "import css" and "paths" options
+
+@import 'prism/themes/prism-okaidia.css'
+// Check out "bower_components/prism/themes/" for available themes
+
+body
+  font-family: "Helvetica Neue", "Helvetica", sans-serif
+  font-weight: 100
+  zoom: 1.5
+
+h1,
+h2
+  font-family: "lobster_tworegular", "Lobster Two", "Helvetica", sans-serif
+
+p
+  max-width: 640px
+  text-align: center
+
+.badass
+  color: #bada55
+
+.centertext
+  text-align: center
+
+.bullet-icon
+  margin-right: 10px
+
+ul li.noarrow::before
+  content: ''

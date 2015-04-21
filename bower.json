@@ -1,0 +1,7 @@
+{
+  "name": "presentation-cross-platform-mobile-development-for-ios-android-and-windows-phone",
+  "version": "0.0.0",
+  "dependencies": {
+    "prism": "gh-pages"
+  }
+}
